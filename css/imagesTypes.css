@@ -1,0 +1,56 @@
+
+/* Imagenes */
+/*Para imagenes se utilizara class selector
+crearemos las siguientes clases
+class ="miniC" -> 150px*150px
+class ="mediumC" -> 250px*250px
+class ="bigC" -> 350px*350px
+
+class ="miniA" -> 150px*Auto
+class ="mediumA" -> 250px*Auto
+class ="bigA" -> 350px*Auto
+
+Si se utiliza una imagen en una tabla con el escript adaptativo meter la imagen en el ultimo campo
+*/
+img.miniC{
+width: 150px;
+height: 150px;
+margin: 0px;
+}
+
+img.mediumC{
+width: 250px;
+height: 250px;
+margin: 0px;
+}
+
+img.bigC{
+width: 350px;
+height: 350px;
+margin: 0px;
+}
+
+img.miniA{
+width: 150px;
+height: auto;
+margin: 0px;
+}
+
+img.mediumA{
+width: 250px;
+height: auto;
+margin: 0px;
+}
+
+img.bigA{
+width: 350px;
+height: auto;
+margin: 0px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 520px) {
+
+		
+}
+
